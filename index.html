@@ -1,0 +1,182 @@
+<!-- CHAD FDEV | Victor Dibie | Original portfolio source | © 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="5kAYxRiOSkO6ouBDYPqRgLfg5BO5y0pLXWEpuMXBNOs" />
+  <meta name="theme-color" content="#08080c">
+  <meta name="description" content="Victor Dibie, CHAD FDEV — cybersecurity-focused developer and founder of VECTOR TECH, based in Spain.">
+  <meta property="og:title" content="CHAD FDEV — Victor Dibie | Cybersecurity & Development">
+  <meta property="og:description" content="The portfolio of Victor Dibie (CHAD FDEV): cybersecurity, software development, AI and VECTOR TECH.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chad-fdev.netlify.app/">
+  <title>CHAD FDEV | Cybersecurity & Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/translations.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- CINEMATIC CHAD FDEV BOOT EXPERIENCE -->
+  <div class="intro-screen" id="introScreen" aria-label="CHAD FDEV cinematic introduction">
+    <canvas class="intro-particles" id="introParticles" aria-hidden="true"></canvas>
+    <div class="intro-grid" aria-hidden="true"></div>
+    <div class="intro-vignette" aria-hidden="true"></div>
+    <div class="intro-topline">
+      <span><i class="intro-live-dot"></i> CHAD FDEV // SECURE BOOT</span>
+      <span id="introClock">00:00:00</span>
+    </div>
+    <div class="intro-core">
+      <div class="intro-emblem" aria-hidden="true"><span>CF</span><i></i></div>
+      <p class="intro-kicker" id="introKicker">INITIALIZING PERSONAL SYSTEM</p>
+      <h1 class="intro-title" aria-label="CHAD FDEV"><span>CHAD</span><b>FDEV</b></h1>
+      <div class="intro-rule"><span id="introRuleFill"></span></div>
+      <div class="boot-terminal">
+        <div class="boot-terminal-head"><span><i></i><i></i><i></i></span><b>root@chad-fdev:~</b><em>ENCRYPTED SESSION</em></div>
+        <div class="boot-lines" id="bootLines" aria-live="polite">
+          <p><span class="boot-prompt">root@chad-fdev:~#</span> <span class="boot-dim">awaiting initialization...</span></p>
+        </div>
+      </div>
+      <p class="intro-welcome" id="introWelcome">WELCOME TO <span>CHAD FDEV</span> PORTFOLIO<span class="welcome-cursor">_</span></p>
+      <p class="intro-subtitle" id="introSubtitle">CYBERSECURITY · DEVELOPMENT · INNOVATION</p>
+      <button class="intro-enter" id="introEnter" type="button">ENTER THE EXPERIENCE <span>↗</span></button>
+    </div>
+    <div class="intro-bottomline">
+      <span>IDENTITY: VICTOR DIBIE</span><span>LOCATION: SPAIN</span><span>STATUS: <b>ONLINE</b></span>
+    </div>
+    <button class="intro-skip" id="introSkip" type="button">SKIP INTRO ↗</button>
+  </div>
+  <div class="radial-overlay" id="radialOverlay" aria-hidden="true"></div>
+  <div class="page-transition" id="pageTransition" aria-hidden="true"><span>CHAD FDEV</span></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+
+  <div class="ambient-scene" id="ambientScene" aria-hidden="true"><div class="ambient-orb orb-one"></div><div class="ambient-orb orb-two"></div><div class="ambient-ring ring-one"></div><div class="ambient-ring ring-two"></div><div class="ambient-crosshair"></div></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CHAD FDEV home"><span class="brand-mark">CF</span><span>CHAD<span class="red"> FDEV</span><small>VICTOR DIBIE</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home" data-i18n="navHome">Home</a><a href="#about" data-i18n="navAbout">About</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a><a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#cybersecurity" data-i18n="navCyber">Cybersecurity</a><a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <label class="language-wrap" aria-label="Choose language"><span>◎</span>
+      <select id="languageSelect" aria-label="Choose website language">
+        <option value="en">🇬🇧 English</option><option value="es">🇪🇸 Español</option>
+        <option value="fr">🇫🇷 Français</option><option value="de">🇩🇪 Deutsch</option>
+        <option value="pt">🇵🇹 Português</option><option value="ar">🇸🇦 العربية</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span><span data-i18n="heroEyebrow">CYBERSECURITY · DEVELOPMENT · INNOVATION</span></p>
+        <p class="hero-name">VICTOR DIBIE</p>
+        <h1>CHAD <span class="red">FDEV</span></h1>
+        <h2 data-i18n="heroRole">Cybersecurity enthusiast <i>•</i> Developer <i>•</i> AI explorer</h2>
+        <p class="founder" data-i18n="founder">FOUNDER OF <a href="https://vector-tech.netlify.app" target="_blank" rel="noopener">VECTOR TECH</a> · BASED IN SPAIN 🇪🇸</p>
+        <p class="hero-description" data-i18n="heroDesc">Building skills, creating useful technology, and learning how to make the digital world safer.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#projects" data-i18n="explore">Explore my work <span>↗</span></a><a class="btn btn-ghost" href="#about" data-i18n="aboutBtn">About me</a></div>
+        <div class="contact-strip">
+          <a href="tel:+34604157842"><b>☎</b><span>+34 604 157 842<small data-i18n="callLabel">Call / WhatsApp</small></span></a>
+          <a href="mailto:vectordevtech@gmail.com"><b>✉</b><span>vectordevtech@gmail.com<small data-i18n="emailLabel">Send an email</small></span></a>
+          <a href="https://www.linkedin.com/in/victor-dibie-dev-tech/" target="_blank" rel="noopener"><b>in</b><span>LinkedIn<small data-i18n="connectLabel">Connect with me</small></span></a>
+        </div>
+      </div>
+      <div class="hero-visual" data-tilt-card>
+        <div class="portrait-frame" data-tilt-inner><img src="assets/images/chad-profile-cyber.jpg" alt="Cyberpunk-styled portrait representing CHAD FDEV"><div class="portrait-scan" aria-hidden="true"></div><div class="portrait-hud" aria-hidden="true"><span>BIOMETRIC / CF-001</span><b>IDENTITY // VERIFIED</b><i></i></div><canvas class="portrait-particles" id="portraitParticles" aria-hidden="true"></canvas></div>
+        <div class="hud hud-top"><span class="hud-dot"></span> <span data-i18n="systemOnline">SYSTEM ONLINE</span><small>SECURE / BUILD / REPEAT</small></div>
+        <div class="hud hud-bottom"><span data-i18n="location">LOCATION</span><b>SPAIN 🇪🇸</b><span data-i18n="focus">PRIMARY FOCUS</span><b>CYBERSECURITY</b></div>
+        <div class="orbit"></div><div class="floating-id-chip"><span>CF / 01</span><b>IDENTITY VERIFIED</b><small>VICTOR DIBIE</small></div>
+      </div>
+      <div class="hero-bottomline"><span>/// CHAD FDEV</span><span>INNOVATE</span><span>///</span><span>SECURE</span><span>///</span><span>BUILD</span></div>
+    </section>
+
+
+    <!-- SCROLL-DRIVEN CINEMATIC CHAPTER: THE CHAD FDEV SIGNAL -->
+    <section class="signal-track" id="signal" aria-label="CHAD FDEV interactive introduction">
+      <div class="signal-stage">
+        <canvas id="signalCanvas" aria-hidden="true"></canvas><div class="signal-grain" aria-hidden="true"></div>
+        <div class="signal-top"><span><i></i> CHAD FDEV / FIELD NOTES</span><span id="signalIndex">01 — 05</span></div>
+        <div class="signal-side-index" aria-hidden="true"><b class="is-active">01</b><i></i><b>02</b><i></i><b>03</b><i></i><b>04</b><i></i><b>05</b></div>
+        <div class="signal-word" id="signalWord" aria-live="polite">INITIALIZE</div>
+        <div class="signal-core" id="signalCore" aria-hidden="true"><div class="core-orbit orbit-a"></div><div class="core-orbit orbit-b"></div><div class="core-orbit orbit-c"></div><div class="core-cross"></div><div class="core-monogram">CF</div><span class="core-label core-label-top">IDENTITY / 001</span><span class="core-label core-label-bottom">VICTOR DIBIE · SPAIN</span></div>
+        <div class="signal-caption"><span class="signal-kicker">01 / THE MINDSET</span><h2>Curiosity is the <em>starting point.</em></h2><p>Question the system. Understand the structure. Build with intention.</p></div>
+        <div class="signal-bottom"><span>SCROLL TO EXPLORE</span><div class="signal-scroll-line"><i id="signalScrollThumb"></i></div><span>BUILD · SECURE · INNOVATE</span></div>
+        <div class="signal-progress" id="signalProgress"></div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-title"><p class="eyebrow">01 / <span data-i18n="aboutEyebrow">THE PERSON BEHIND THE CODE</span></p><h2 data-i18n="aboutTitle">Curious mind. <span class="red">Builder mindset.</span></h2></div>
+      <div class="about-grid">
+        <article class="panel about-panel"><h3 data-i18n="whoTitle">Who am I?</h3>
+          <p data-i18n="aboutText">I'm Victor Dibie, known as CHAD FDEV. I'm a developer and technology enthusiast based in Spain. My main direction is cybersecurity, while I continue learning software development, web technologies, and AI. I enjoy building projects, experimenting with Linux, and improving through practical work.</p>
+          <p data-i18n="aboutText2">I am also building VECTOR TECH, my technology company and long-term vision. I believe in learning responsibly, documenting progress, and turning ideas into useful products.</p>
+          <div class="tags"><span>CHAD FDEV</span><span>VECTOR TECH</span><span>SPAIN 🇪🇸</span></div>
+        </article>
+        <aside class="panel terminal-panel">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>chad@kali: ~</span></div>
+          <div class="terminal-content" id="terminalOutput" aria-live="polite">
+            <p><span class="prompt">chad@kali:~$</span> whoami</p><p class="terminal-green">Victor Dibie (CHAD FDEV)</p>
+            <p><span class="prompt">chad@kali:~$</span> cat focus.txt</p><p>Cybersecurity<br>Software Development<br>Artificial Intelligence</p>
+            <p><span class="prompt">chad@kali:~$</span> <span class="cursor">█</span></p>
+          </div>
+          <div class="terminal-controls"><button data-command="whoami">whoami</button><button data-command="skills">skills</button><button data-command="uname -a">uname -a</button><button data-command="neofetch">neofetch</button><button data-command="projects">projects</button><button data-command="focus">focus</button><button data-command="github">github</button><button data-command="ls">ls</button><button data-command="help">help</button></div><form class="terminal-input-row" id="terminalForm"><label for="terminalInput">chad@kali:~$</label><input id="terminalInput" name="command" type="text" autocomplete="off" spellcheck="false" placeholder="type a command..." aria-label="Enter a terminal command"><button type="submit" aria-label="Run command">↵</button></form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-title"><p class="eyebrow">02 / <span data-i18n="skillsEyebrow">CURRENT TOOLKIT</span></p><h2 data-i18n="skillsTitle">Skills & <span class="red">technologies.</span></h2><p data-i18n="skillsIntro">Areas I work with and continue to develop. This reflects my learning journey, not a claim of mastery.</p></div>
+      <div class="skills-grid">
+        <article class="panel skill-card"><b>⌘</b><h3 data-i18n="skillCyber">Cybersecurity</h3><p data-i18n="skillCyberDesc">Security fundamentals, ethical hacking concepts, and legal practice labs.</p></article>
+        <article class="panel skill-card"><b>$_</b><h3>Linux & Kali</h3><p data-i18n="skillLinuxDesc">Linux command line, system configuration, and troubleshooting.</p></article>
+        <article class="panel skill-card"><b>{ }</b><h3>Python</h3><p data-i18n="skillPythonDesc">Scripting, automation basics, and problem solving.</p></article>
+        <article class="panel skill-card"><b>&lt;/&gt;</b><h3>HTML · CSS · JavaScript</h3><p data-i18n="skillWebDesc">Responsive websites, interactive interfaces, and web fundamentals.</p></article>
+        <article class="panel skill-card"><b>AI/</b><h3 data-i18n="skillAi">Artificial Intelligence</h3><p data-i18n="skillAiDesc">Exploring AI tools and integrating AI-powered features into projects.</p></article>
+        <article class="panel skill-card"><b>git</b><h3>Git & GitHub</h3><p data-i18n="skillGitDesc">Version control, repositories, and deployment workflows.</p></article>
+      </div>
+      <p class="note" data-i18n="skillsNote">I keep learning and improving. Skills are presented honestly and will be updated as I gain experience.</p>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-title"><p class="eyebrow">03 / <span data-i18n="projectsEyebrow">SELECTED WORK</span></p><h2 data-i18n="projectsTitle">Ideas turned into <span class="red">projects.</span></h2><p data-i18n="projectsIntro">A selection of things I have been building and exploring.</p></div>
+      <div class="filter-row"><button class="filter active" data-filter="all" data-i18n="filterAll">All</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="ai">AI</button><button class="filter" data-filter="brand">Brand</button></div>
+      <div class="projects-grid">
+        <article class="panel project-card" data-category="brand"><span class="project-index">01 / BRAND</span><h3>VECTOR TECH</h3><p data-i18n="projectVector">My technology company and brand, focused on digital products, development, and innovation.</p><a href="https://vector-tech.netlify.app" target="_blank" rel="noopener" data-i18n="visitSite">Visit website ↗</a></article>
+        <article class="panel project-card" data-category="web ai"><span class="project-index">02 / WEB APP</span><h3>VEC Scientific Calculator</h3><p data-i18n="projectCalc">A scientific web calculator with an AI assistant, calculation history, and a custom interface.</p><a href="https://github.com/vic-tech7/web-calculator" target="_blank" rel="noopener" data-i18n="viewGithub">View on GitHub ↗</a></article>
+        <article class="panel project-card" data-category="web"><span class="project-index">03 / WEB DESIGN</span><h3>VelvetTone</h3><p data-i18n="projectVelvet">A music-platform-inspired web project exploring interface design and application features.</p><span class="coming" data-i18n="inProgress">Details coming soon</span></article>
+        <article class="panel project-card" data-category="ai"><span class="project-index">04 / AI CONCEPT</span><h3>VECTOR AI</h3><p data-i18n="projectAi">An AI application concept exploring intelligent features and useful digital tools.</p><span class="coming" data-i18n="inProgress">Details coming soon</span></article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="cybersecurity">
+      <div class="section-title"><p class="eyebrow">04 / <span data-i18n="cyberEyebrow">MY MAIN DIRECTION</span></p><h2 data-i18n="cyberTitle">Think defensively. <span class="red">Learn ethically.</span></h2><p data-i18n="cyberIntro">I'm developing my cybersecurity knowledge through structured learning and authorized practice environments.</p></div>
+      <div class="cyber-grid">
+        <article class="panel cyber-step"><span>01</span><h3 data-i18n="stepOne">Foundations</h3><p data-i18n="stepOneDesc">Networking, Linux, operating systems, and understanding how the web works.</p></article>
+        <article class="panel cyber-step"><span>02</span><h3 data-i18n="stepTwo">Hands-on practice</h3><p data-i18n="stepTwoDesc">Learn security concepts using legal labs and deliberately vulnerable practice systems.</p></article>
+        <article class="panel cyber-step"><span>03</span><h3 data-i18n="stepThree">Build capability</h3><p data-i18n="stepThreeDesc">Document projects, improve methodology, and grow defensive security knowledge.</p></article>
+      </div>
+      <div class="ethics"><b>⚑ <span data-i18n="ethicsTitle">MY RULE:</span></b> <span data-i18n="ethicsText">I only test systems I own or have explicit permission to assess. Responsible learning comes first.</span></div>
+    </section>
+
+    <section class="section content-section" id="contact">
+      <div class="section-title"><p class="eyebrow">05 / <span data-i18n="contactEyebrow">OPEN CHANNEL</span></p><h2 data-i18n="contactTitle">Let's <span class="red">connect.</span></h2><p data-i18n="contactIntro">Open to learning, collaboration, networking, and interesting technology opportunities.</p></div>
+      <div class="contact-panel panel">
+        <div><h3 data-i18n="contactHeading">Have an idea or opportunity?</h3><p data-i18n="contactText">Reach out. I'd be glad to connect and talk technology.</p></div>
+        <div class="contact-buttons"><a class="btn btn-primary" href="mailto:vectordevtech@gmail.com">✉ Email me</a><a class="btn btn-ghost" href="tel:+34604157842">☎ Call me</a><a class="btn btn-ghost" href="https://www.linkedin.com/in/victor-dibie-dev-tech/" target="_blank" rel="noopener">in LinkedIn ↗</a><button class="btn btn-ghost" id="copyEmail">Copy email</button></div>
+        <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="footer-inner"><span>© <span id="year"></span> CHAD FDEV · Victor Dibie</span><span data-i18n="footerLine">BUILD · SECURE · INNOVATE</span><a href="#home" data-i18n="backTop">Back to top ↑</a></div></footer>
+</body>
+</html>
