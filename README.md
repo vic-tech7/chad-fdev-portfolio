@@ -88,22 +88,6 @@ chad-fdev-portfolio/
 
 This is a front-end project, so its HTML, CSS and JavaScript are sent to the browser and can be inspected. The source is kept readable so I can maintain and improve it. Never put passwords, private keys or API secrets in client-side code.
 
-The site is static and can be hosted on Netlify or another static host. Pushing to GitHub does not change the existing Netlify deployment unless repository-based deployment is configured.
-
-## Publish to GitHub
-
-Create a public repository named `chad-fdev-portfolio` under `vic-tech7`. Leave the repository empty (do not add a second README), then run these commands from this project folder:
-
-```bash
-git init
-git add .
-git commit -m "Add CHAD FDEV portfolio"
-git branch -M main
-git remote add origin https://github.com/vic-tech7/chad-fdev-portfolio.git
-git push -u origin main
-```
-
-If Git asks you to authenticate, finish the sign-in flow in your browser.
 
 ---
 
